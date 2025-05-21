@@ -44,6 +44,8 @@ class Reaccion(Base):
 
     usuario = relationship("Usuario", back_populates="reacciones")
     publicacion = relationship("Publicacion", back_populates="reacciones")
+# cambios
+
 
     def __repr__(self):
         return "Reaccion: usuario=%s, publicacion=%s, tipo_emocion=%s" % (
