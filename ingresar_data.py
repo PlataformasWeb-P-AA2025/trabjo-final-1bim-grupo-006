@@ -2,7 +2,6 @@ import csv
 from sqlalchemy.orm import sessionmaker
 from generar_tablas import Usuario, Publicacion, Reaccion, engine
 
-# Crear sesión
 Session = sessionmaker(bind=engine)
 session = Session()
 
