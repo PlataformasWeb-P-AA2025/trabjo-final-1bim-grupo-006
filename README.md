@@ -76,3 +76,12 @@ class Reaccion
 ## En caso de usar IA-Generativa para consulta de información
 
 - En un archivo llamado informacion.md; explicando a detalle el uso de cada prompt
+
+
+---
+## Avances del proyecto final
+## Miercoles 21 de mayo de 2025
+
+- Crear el modelo de base de datos
+- Poblar las tablas, importando informacion de los archivos cvs
+- Una consulta para comprobar que los archivos esten cargados correctamente
