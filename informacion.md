@@ -1,5 +1,22 @@
 EXPLICACIÓN USO DE IA GENERATIVA
+
+Herramienta Utilizada: ChatGPT OpenAI
+
+1. Para carga de data a la base de datos
+
+Se uso la herramienta para generar ciertas lineas de codigo que ayuden a solucionar errores que presentaba nuestro programa al momento de cargar informacion hacia la base de datos.
+
+2. En consultas
+
+Consulta05.py:
+En esta consulta se uso IA generativa para preguntar e investigar métodos o funciones que puedan hacer la consulta mas optima y que reduzca lineas de código.
+
+Prompt: Chatgpt, dada esta consulta, que métodos puedo utilizar para simplificar esta consulta, y que optimice el código
+
+Respuesta: Claro, para mejorar esta consulta y optimizar tu código puedes usar funciones de SQLAlchemy como func.substr, func.upper, or_ y el operador ~. func.substr(Usuario.nombre, 1, 1) permite extraer directamente la primera letra del nombre desde la base de datos, lo cual evita cargar todos los datos en Python para procesarlos manualmente. Luego, func.upper(...) convierte esa letra a mayúscula, asegurando una comparación insensible a mayúsculas/minúsculas. Para verificar si la letra coincide con alguna vocal, puedes usar una lista de condiciones y combinarlas eficientemente con or_, que genera una cláusula SQL con múltiples OR. Finalmente, el operador ~ niega toda esa condición, lo que te permite obtener solo los usuarios cuyos nombres no comienzan con vocal. Estas funciones te ayudan a mantener la lógica dentro del motor SQL, lo que mejora el rendimiento y mantiene tu código más limpio y expresivo.
 Prompt
+
+3. Ideas para generar nuevas consultas
 
 -- hola chatgpt que ideas podrias darme para hacer unas consultas sobre una base de datos de un trabajo?
 

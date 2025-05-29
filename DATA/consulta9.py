@@ -1,1 +1,0 @@
-consulta9.py
