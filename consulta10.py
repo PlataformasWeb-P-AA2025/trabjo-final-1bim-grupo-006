@@ -34,7 +34,6 @@ resultados = (  # Inicia la asignación de la consulta a la variable 'resultados
     .all()  # Ejecuta la consulta y recupera todos los resultados
 )
 
-
 # Imprimir encabezado
 print("Usuarios que han reaccionado a publicaciones de otros usuarios:")
 

@@ -6,7 +6,6 @@ from sqlalchemy import func, desc
 from sqlalchemy.orm import sessionmaker
 from generar_tablas import Usuario, Publicacion, Reaccion, engine
 
-
 # Crear sesión con la base de datos
 Session = sessionmaker(bind=engine)
 session = Session()

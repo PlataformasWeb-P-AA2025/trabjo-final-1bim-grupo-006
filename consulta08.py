@@ -10,6 +10,7 @@ from generar_tablas import Usuario, Publicacion, Reaccion, engine
 Session = sessionmaker(bind=engine)
 session = Session()
 
+
 # Consultar nombre del usuario y contar cuántas publicaciones tiene cada uno
 publicaciones_por_usuario = session.query(
     Usuario.nombre,

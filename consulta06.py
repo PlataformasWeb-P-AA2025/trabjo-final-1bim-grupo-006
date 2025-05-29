@@ -4,9 +4,8 @@
 from sqlalchemy.orm import sessionmaker
 from generar_tablas import Usuario, Publicacion, Reaccion, engine
 
-# Se crea una clase de sesión enlazada al motor de la base de datos
+# Crear una sesion a la base de datos
 Session = sessionmaker(bind=engine)
-# Se instancia una sesión para interactuar con la base de datos
 session = Session()
 
 # Se realiza una consulta para obtener todos los usuarios cuya relación 'publicaciones' esté vacía
