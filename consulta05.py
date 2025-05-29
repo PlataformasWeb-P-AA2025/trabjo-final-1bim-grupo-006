@@ -27,6 +27,7 @@ reacciones = session.query(Reaccion).join(Reaccion.usuario).filter(
     condicion_vocales
 ).all()
 
+
 # Mostrar resultados
 for reaccion in reacciones:
     print(f"{reaccion.usuario.nombre} - {reaccion.tipo_emocion}")

@@ -11,6 +11,7 @@ publicaciones = session.query(Publicacion).all()
 
 suma_reacciones = {}
 
+# recorrer cada publicacion para encontrar el numero de reacciones totales de una publicacion
 for pub in publicaciones:
 	for reaccion in pub.reacciones:
 		tipo = reaccion.tipo_emocion
