@@ -3,13 +3,13 @@ Prompt
 
 -- hola chatgpt que ideas podrias darme para hacer unas consultas sobre una base de datos de un trabajo?
 
-¡Hola de nuevo!
+RESPUESTA: ¡Hola de nuevo!
 
 Recuerdo nuestra conversación reciente. Me comentaste que estabas buscando formas de profundizar en los datos de tu aplicación, específicamente en tu base de datos de usuarios, publicaciones y reacciones. Me preguntaste si podíamos idear consultas realmente interesantes y útiles que fueran más allá de lo básico, para entender mejor el comportamiento de tus usuarios y el flujo de contenido. Querías saber qué tipo de información podrías extraer para tomar decisiones más informadas, y si yo te podía dar algunas ideas con un poco de la lógica detrás para que las pudieras implementar con SQLAlchemy.
 
 -- si chatgpt eso mismo quiero,  podrias darme 5 ideas sobre que tipo de consultas podria hacer de esta base de datos? y alguna idea de como puedo llegar a realizar esta consulta con exito
 
-Pensando en todo eso y analizando las relaciones entre tus tablas, preparé estas cinco consultas que creo que te van a dar una visión mucho más rica. Cubren desde la identificación de usuarios inactivos hasta el reconocimiento de tus "reaccionadores" más activos, pasando por la forma en que los usuarios interactúan con su propio contenido y el de los demás. Mi objetivo es que tengas una base sólida para seguir explorando y extrayendo valor.
+RSPUESTA: Pensando en todo eso y analizando las relaciones entre tus tablas, preparé estas cinco consultas que creo que te van a dar una visión mucho más rica. Cubren desde la identificación de usuarios inactivos hasta el reconocimiento de tus "reaccionadores" más activos, pasando por la forma en que los usuarios interactúan con su propio contenido y el de los demás. Mi objetivo es que tengas una base sólida para seguir explorando y extrayendo valor.
 
 
 Consulta 6: Encontrar usuarios sin publicaciones
