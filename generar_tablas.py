@@ -3,11 +3,13 @@ from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 from datetime import datetime
 
 # Crear motor
-engine = create_engine('sqlite:///premierleague.db')
+# engine = create_engine('sqlite:///premierleague.db')
+
+#Postgress
+engine = create_engine('postgresql+psycopg2://raul:raul8005@localhost:5432/premier_league')
 
 # Declarar base
 Base = declarative_base()
-
 
 class Usuario(Base):
     __tablename__ = 'usuario'

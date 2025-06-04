@@ -38,6 +38,7 @@ print("Publicaciones cargadas.")
 with open('DATA/usuario_publicacion_emocion.csv', encoding='utf-8') as archivo:
     reader = csv.reader(archivo, delimiter='|')
     next(reader)  # Saltar encabezado
+    
     for fila in reader:
         nombre_usuario = fila[0].strip()
         contenido = fila[1].strip()
